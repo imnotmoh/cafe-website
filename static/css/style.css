@@ -1,0 +1,161 @@
+.site-name{
+
+    font-size: 250%;
+    font-family: 'Eczar', serif;
+    color: #6B4F4F;
+    margin-left: 3.125rem;
+    margin-top: 3.125rem;
+}
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inner-landing {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #FFF3E4;
+}
+
+
+.coffee {
+    height: 100%;
+    width: 40%;
+}
+.intro-word{
+    text-align: center;
+    margin: auto 0;
+    margin-left: 3.125rem;
+    padding: 0;
+    height: 21.875rem;
+    width: 90%;
+}
+.intro-word h2 {
+    color: #6B4F4F;
+    text-align: center;
+    margin-right: 12px;
+    font-size: 1.75rem;
+    line-height: 1.4;
+
+}
+
+.mobile-coffee{
+    display: none;
+}
+
+.select-city,.add_data {
+    background-color: #FFF3E4;
+    width: 90%;
+    height: 100%;
+    border: 0;
+}
+.select-outline,.add-outline {
+    width: 80%;
+    text-align: center;
+    background-color: #FFF3E4;
+    height: 10%;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #EED6C4;
+    margin: 0 auto;
+}
+
+input.add-outline{
+    padding-left: 10px;
+    text-align: left;
+}
+.city-submit, .add-submit{
+    margin: 10px;
+    border-radius: 100px;
+    color: #EED6C4;
+    background-color: #6B4F4F;
+    border: none;
+}
+
+.add-submit{
+    padding: 0 15px;
+}
+
+.form-label {
+
+}
+
+.add-form {
+    text-align: center;
+}
+
+.cafe-cards{
+    margin-left: 3.125rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 0;
+    width: 311px;
+    height: 420px;
+    background-color: #EED6C4;
+    
+}
+.cafe-img{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 40%;
+}
+.card-info {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.card-info-categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+
+}
+.card-symbol {
+    display: flex;
+    width:50%;
+    justify-content: start;
+    gap: 10px;
+}
+
+#sec-2 {
+    margin-top: 3.125rem;
+    margin-left: 3.125rem;
+    font-family: 'Eczar', serif;
+    color: #6B4F4F;
+}
+/* .card-info a { 
+    position: relative;
+    top: 20px;
+
+} */
+
+
+
+
+@media screen and (max-width:1080px) {
+    .card-arr{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .mobile-coffee {
+        display: block;
+        width: 100%;
+        height: 40%;
+    }
+    .coffee{
+        display: none;
+    }
+    .landing{
+        display: block;
+    }
+}
